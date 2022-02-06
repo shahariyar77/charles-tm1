@@ -1,0 +1,207 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .signle-header-item {
+        margin: 0 20px;
+    }
+    .herader-icon i {
+        font-size: 40px;
+    }
+    .sep:before {
+        position: absolute;
+        right: -23px;
+    }
+    .main-manu li a {
+        padding: 27px 21px 27px 20px;
+    }
+    span.sub-toggle {
+        position: absolute;
+        right: -4px;
+       
+    }
+    .left-hero h2 {
+        font-size: 43px;
+    }
+    .cta-text h2 {
+        font-size: 30px;
+        margin-bottom: 32px;
+    }
+    .counter-wrapper, .quotes-btn.cta {
+        margin-top: 0px;
+    }
+    .counter-area a.quotes-btn.cta {
+        margin-top: 50px;
+    }
+
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .logo {
+        width: 100%;
+        margin-bottom: 20px;
+        position: absolute;
+        top: 20px;
+        text-align: center;
+    }
+    .signle-header-item {
+        margin: 0 15px;
+    }
+    .right-part {
+        margin: 70px 0 10px 0;
+    }
+    .herader-icon i {
+        font-size: 30px;
+    }
+    .main-manu ul {
+        display: none;
+    }
+    .hero-area {
+        padding: 130px 0 0px 0;
+    }
+    .left-hero p {
+        font-size:18px;
+        
+    }
+    .left-hero h2 {
+        font-size: 35px;
+        line-height: 50px;
+        padding: 10px 0 19px 0;
+    }
+    .singl-feature-item {
+        padding: 50px 10%;
+    }
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 720px;
+    }
+    .about-img {
+        display: none;
+    }
+    .cta-text h2 {
+        padding:0px;
+       
+    }
+    .cta-text h2 {
+        font-size: 38px;
+    }
+    .counter-wrapper, .quotes-btn.cta {
+        margin-top: 10px;
+    }
+    .services-text {
+        padding: 20px 5px 10px 14px;
+    }
+    .counter-area a.quotes-btn.cta {
+        margin-top: 50px;
+    }
+    .services-contact-txt h4 {
+        font-size: 22px;
+    }
+    .testminial-wrap {
+        width: 100%;
+    }
+    span.timer {
+        font-size: 60px;
+    }
+    .footer-bootem li a {
+        margin-left: 29px;
+        
+    }
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .header-bar{
+        display: block;
+    }
+    .offcanvas-manu{
+        display: block;
+    }
+    .main-manu {
+        padding-left: 0;
+    }
+
+  
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .header-bar{
+        display: block;
+    }
+    .offcanvas-manu{
+        display: block;
+    }
+    .main-manu {
+        padding-left: 0;
+    }
+    li.cart-icon {
+        margin-left: 0px;
+    }
+    .right-part {
+        display: none;
+    }
+    .left-part {
+        margin-bottom: 30px;
+    }
+    .main-hero-wrapper {
+        flex-direction: column;
+    }
+    .left-hero, .right-hero {
+        width: 100%;
+    }
+    .left-hero {
+        margin-bottom: 80px;
+    }
+    .left-hero p {
+        font-size: 15px;
+    }
+    .right-hero {
+        display: none;
+    }
+    .singl-feature-item h4 a {
+        font-size: 22px;
+    }
+    .section-spacing {
+        margin-bottom: 60px;
+    }
+    .about-txt-1 h2, .section-tittle h2 {
+        line-height: 50px;
+    }
+    .visition::after, .mission::after {
+        display: none;
+    }
+    .cta-text h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .services-contact-txt h5:after {
+        display: none;
+    }
+    .single-team-member {
+        margin-bottom: 30px;
+    }
+    .consult-img {
+        height: 300px;
+    }
+    .partner-text {
+        text-align: center;
+        margin-bottom:35px
+    }
+    
+    .partner-text h6 br {
+        display: none;
+    }
+    .form-area {
+        padding: 40px 20px;
+    }
+    .footer-top {
+        padding: 20px 0 30px 0;
+    }
+    .footer-area h6 {
+        margin-top: 50px;
+    }
+    .footer-bootem ul {
+        text-align: center;
+    }
+    
+}
